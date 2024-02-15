@@ -1,7 +1,7 @@
 import './App.css';
 import { useState } from 'react';
-import image from "./Val-image.jpeg";
-import tolulope from "./Tolulope.jpeg"
+import image from "./sorry-image.jpeg";
+import mainImage from "./eunice.jpg"
 import Confetti from 'react-confetti';
 
 
@@ -23,19 +23,15 @@ const App = () => {
       {showMessage && confetti && <Confetti />}
       {showMessage ? (
         <div className="message-container">
-          <h1>Happy Valentine's Day, Egbedoyin Tolulope Esther!</h1>
+          <h1>Eunice!</h1>
           <p>
-          Through the highs and lows, your unwavering support and willingness to listen have been my pillars of strength. Your presence has been a source of comfort, and your love, a guiding light. I am blessed to have you as my partner, my confidante, and my best friend.
-
-          As we celebrate another Valentine's Day together, let this message be a reminder of the immense love and gratitude I hold for you. You are not just my Valentine; you are my forever love, my anchor, and the melody that fills my heart with joy.
-
-          Here's to many more years of love, laughter, and shared dreams. Happy Valentine's Day, my love.
+            I'm sory I wasn't available, please and please, do well to forgive me 💓
           </p>
 
           <div className="card-container" onClick={handleCardClick}>
           <img
             className="jumping-card"
-            src={tolulope} // Replace with the actual URL of your card image
+            src={mainImage} // Replace with the actual URL of your card image
             alt="Valentine's Card"
           />
         </div>
@@ -49,7 +45,7 @@ const App = () => {
             alt="Valentine's Card"
           />
           <p>
-            Onitemi sends you a valentine card🥰. You are loved!
+            I'm sending you a sorry message🙏, I hope it's accepted🥰
           </p>
           <p>Click to reveal</p>
         </div>
